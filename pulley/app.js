@@ -7,8 +7,10 @@ MongoClient.connect('mongodb://localhost:27017/trasmatter', function(err, db) {
     request('https://www.reddit.com/r/Seattle/comments/3e0q5u/why_metro_matters_infographic/.json', function (error, response, body) {
         if (!error && response.statusCode == 200) {
             var obj = JSON.parse(body);
+            console.log(obj[0].data);
 
-            var stories = obj.data.subreddit.map(function (story) { return story.data; });
+            var stories = obj[1].data.children.map(function (story) { return story.data; });
+
 
             db.collection('reddit').insert(stories, function (err, data) {
                     if(err) throw err;
