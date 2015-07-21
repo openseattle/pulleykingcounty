@@ -1,0 +1,12 @@
+{
+  "name": "handout",
+  "version": "0.0.0",
+  "description": "handout",
+  "main": "app.js",
+  "dependencies": {
+    "mongodb": "~1.4.34"
+  },
+  "author": "You",
+  "license": "BSD",
+  "private": true
+}
