@@ -4,8 +4,10 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
+    "bootstrap": "^3.3.5",
     "express": "^4.13.3",
     "http": "0.0.0",
+    "jquery": "^2.1.4",
     "mongodb": "^2.0.39",
     "request": "^2.59.0"
   },

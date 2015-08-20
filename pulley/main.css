@@ -1,3 +1,11 @@
+body {
+  margin:0;
+  padding:0;
+
+}
+.allofit {
+  background-color: #73B6E6;
+}
 .container {
   width: 500px;
   background-color: ;
@@ -7,12 +15,20 @@
   border-width: 1px;
   border-top: 1px;
   border-style: solid;
+  border-color: transparent;
 
 }
-.navbar {
-  background-color: blue;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+
+
+#map {
+  width: 102.6%;
+  height: 99.3%;
+  margin-left: -15px;
+  margin-top: 5px;
+}
+.navbill1 {
+  color: white;
+  padding-right: 30px;
+  padding-bottom: 0px;
+
 }
