@@ -1,2 +1,1 @@
-# pulleykingcounty
-Pulley King County is an open source project focused on using modern web technologies to improve puget sound's public transportation.  
+Pulley.PugetSound is a open source project focused on making busing a better holistic experience. One of our priorities is creating safer commutes by creating a cultural structure, tools to help people report issues, and organizing commuters.
