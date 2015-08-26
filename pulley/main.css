@@ -4,7 +4,19 @@ body {
 
 }
 .allofit {
-  background-color: #73B6E6;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: url(polina.jpg) no-repeat;
+  background-size: cover;
+
 }
 .container {
   width: 500px;
@@ -33,12 +45,12 @@ body {
 
 }
 .ui-button {
-  background:#3887BE;
+  background:#3074a4;
   color:#FFF;
   display:block;
   position:absolute;
-  top:50%;left:50%;
-  width:160px;
+  top:20%;left:16%;
+  width:100px;
   margin:-20px 0 0 -80px;
   z-index:100;
   text-align:center;
@@ -46,7 +58,9 @@ body {
   border:1px solid rgba(0,0,0,0.4);
   border-radius:3px;
   }
-  .ui-button:hover {
+
+
+.ui-button:hover {
     background:#3074a4;
     color:#fff;
   }

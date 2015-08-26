@@ -1,6 +1,7 @@
 var path = require('path');
 var fs = require('fs');
 var server = require('http').createServer(handler);
+var Firebase = require("firebase");
 
 function handler(req, res) {
     var url = (req.url.split('?')[0]).substr(1);

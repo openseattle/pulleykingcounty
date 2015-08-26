@@ -1,7 +1,7 @@
 L.mapbox.accessToken = 'pk.eyJ1Ijoic2Fub3kiLCJhIjoiNjgwMTM3YmE1YWIzZjJhMjMyZGE3Njk2MjdjZDA2MzAifQ.mIdbqT2ZUaFKyXqTfcdC1g';
 var geolocate = document.getElementById('geolocate');
 var map = L.mapbox.map('map', 'mapbox.run-bike-hike')
-      .setView([47.743589,-122.6440895], 4);
+      .setView([47.743589,-122.6440895], 8);
 
 
 var myLayer = L.mapbox.featureLayer().addTo(map);
