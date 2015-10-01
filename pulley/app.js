@@ -6,6 +6,7 @@ var map = L.mapbox.map('map', 'mapbox.run-bike-hike')
 
 var myLayer = L.mapbox.featureLayer().addTo(map);
 
+
 // This uses the HTML5 geolocation API, which is available on
 // most mobile browsers and modern browsers, but not in Internet Explorer
 //

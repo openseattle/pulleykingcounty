@@ -1,1 +1,1 @@
-git commit -am "html 5 geolaction"
+git push origin master

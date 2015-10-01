@@ -1,7 +1,6 @@
 var path = require('path');
 var fs = require('fs');
 var server = require('http').createServer(handler);
-var Firebase = require("firebase");
 
 function handler(req, res) {
     var url = (req.url.split('?')[0]).substr(1);
@@ -21,5 +20,5 @@ function handler(req, res) {
     );
 }
 
-server.listen(process.env.PORT || 5000);
-console.log('go to localhost:5000');
+server.listen(process.env.PORT || 9000);
+console.log('go to localhost:9000');

@@ -11,6 +11,7 @@
     "jquery": "^2.1.4",
     "mongo": "^0.1.0",
     "nodemailer": "^1.4.0",
+    "pg": "^4.4.1",
     "request": "^2.59.0"
   },
   "devDependencies": {},
