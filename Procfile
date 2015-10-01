@@ -1,1 +1,1 @@
-web: node pulley/index.js
+web: node index.js
